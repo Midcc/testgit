@@ -7,15 +7,11 @@ github.com/CloudyKit/fastprinter
 # github.com/CloudyKit/jet/v3 v3.0.0
 ## explicit; go 1.12
 github.com/CloudyKit/jet/v3
-# github.com/CloudyKit/jet/v4 v4.1.0
-## explicit; go 1.12
-github.com/CloudyKit/jet/v4
 # github.com/Shopify/goreferrer v0.0.0-20181106222321-ec9c9a553398
 ## explicit
 github.com/Shopify/goreferrer
-# github.com/andybalholm/brotli v1.0.4
-## explicit; go 1.12
-github.com/andybalholm/brotli
+# github.com/ajg/form v1.5.1
+## explicit
 # github.com/aymerick/douceur v0.2.0
 ## explicit
 github.com/aymerick/douceur/css
@@ -35,15 +31,15 @@ github.com/eknkc/amber/parser
 # github.com/fatih/structs v1.1.0
 ## explicit
 github.com/fatih/structs
-# github.com/golang/protobuf v1.4.1
-## explicit; go 1.9
-github.com/golang/protobuf/proto
-# github.com/google/uuid v1.1.2-0.20200519141726-cb32006e483f
+# github.com/google/go-querystring v1.0.0
 ## explicit
-github.com/google/uuid
 # github.com/gorilla/css v1.0.0
 ## explicit
 github.com/gorilla/css/scanner
+# github.com/gorilla/websocket v1.4.2
+## explicit; go 1.12
+# github.com/imkira/go-interpol v1.1.0
+## explicit
 # github.com/iris-contrib/blackfriday v2.0.0+incompatible
 ## explicit
 github.com/iris-contrib/blackfriday
@@ -59,41 +55,9 @@ github.com/iris-contrib/schema
 # github.com/json-iterator/go v1.1.10
 ## explicit; go 1.12
 github.com/json-iterator/go
-# github.com/kataras/blocks v0.0.2
-## explicit; go 1.14
-github.com/kataras/blocks
 # github.com/kataras/golog v0.0.18
 ## explicit; go 1.14
 github.com/kataras/golog
-# github.com/kataras/iris v0.0.2
-## explicit; go 1.14
-github.com/kataras/iris
-github.com/kataras/iris/cache
-github.com/kataras/iris/cache/cfg
-github.com/kataras/iris/cache/client
-github.com/kataras/iris/cache/client/rule
-github.com/kataras/iris/cache/entry
-github.com/kataras/iris/cache/ruleset
-github.com/kataras/iris/cache/uri
-github.com/kataras/iris/context
-github.com/kataras/iris/core/errgroup
-github.com/kataras/iris/core/handlerconv
-github.com/kataras/iris/core/host
-github.com/kataras/iris/core/memstore
-github.com/kataras/iris/core/netutil
-github.com/kataras/iris/core/router
-github.com/kataras/iris/hero
-github.com/kataras/iris/i18n
-github.com/kataras/iris/macro
-github.com/kataras/iris/macro/handler
-github.com/kataras/iris/macro/interpreter/ast
-github.com/kataras/iris/macro/interpreter/lexer
-github.com/kataras/iris/macro/interpreter/parser
-github.com/kataras/iris/macro/interpreter/token
-github.com/kataras/iris/middleware/logger
-github.com/kataras/iris/middleware/recover
-github.com/kataras/iris/sessions
-github.com/kataras/iris/view
 # github.com/kataras/iris/v12 v12.1.8
 ## explicit; go 1.13
 github.com/kataras/iris/v12
@@ -128,15 +92,10 @@ github.com/kataras/pio/terminal
 # github.com/kataras/sitemap v0.0.5
 ## explicit; go 1.13
 github.com/kataras/sitemap
-# github.com/kataras/tunnel v0.0.1
-## explicit; go 1.14
-github.com/kataras/tunnel
 # github.com/klauspost/compress v1.15.9
 ## explicit; go 1.16
 github.com/klauspost/compress/flate
 github.com/klauspost/compress/gzip
-github.com/klauspost/compress/s2
-github.com/klauspost/compress/snappy
 # github.com/microcosm-cc/bluemonday v1.0.3
 ## explicit; go 1.9
 github.com/microcosm-cc/bluemonday
@@ -148,54 +107,45 @@ github.com/modern-go/concurrent
 github.com/modern-go/reflect2
 # github.com/moul/http2curl v1.0.0
 ## explicit
-# github.com/russross/blackfriday/v2 v2.0.1
-## explicit
-github.com/russross/blackfriday/v2
 # github.com/ryanuber/columnize v2.1.0+incompatible
 ## explicit
 github.com/ryanuber/columnize
 # github.com/schollz/closestmatch v2.1.0+incompatible
 ## explicit
 github.com/schollz/closestmatch
+# github.com/sergi/go-diff v1.1.0
+## explicit; go 1.12
 # github.com/shurcooL/sanitized_anchor_name v1.0.0
 ## explicit
 github.com/shurcooL/sanitized_anchor_name
 # github.com/smartystreets/goconvey v1.7.2
 ## explicit; go 1.16
-# github.com/valyala/bytebufferpool v1.0.0
-## explicit
-github.com/valyala/bytebufferpool
+# github.com/stretchr/testify v1.6.1
+## explicit; go 1.13
 # github.com/valyala/fasthttp v1.43.0
 ## explicit; go 1.16
-# github.com/vmihailenco/msgpack/v5 v5.0.0-beta.1
-## explicit; go 1.11
-github.com/vmihailenco/msgpack/v5
-github.com/vmihailenco/msgpack/v5/codes
-# github.com/vmihailenco/tagparser v0.1.1
-## explicit; go 1.13
-github.com/vmihailenco/tagparser
-github.com/vmihailenco/tagparser/internal
-github.com/vmihailenco/tagparser/internal/parser
-# github.com/yosssi/ace v0.0.5
+# github.com/xeipuuv/gojsonschema v1.2.0
 ## explicit
-github.com/yosssi/ace
-# golang.org/x/crypto v0.0.0-20220214200702-86341886e292
+# github.com/yalp/jsonpath v0.0.0-20180802001716-5cc68e5049a0
+## explicit
+# github.com/yudai/gojsondiff v1.0.0
+## explicit
+# github.com/yudai/golcs v0.0.0-20170316035057-ecda9a501e82
+## explicit
+# golang.org/x/crypto v0.1.0
 ## explicit; go 1.17
 golang.org/x/crypto/acme
 golang.org/x/crypto/acme/autocert
-# golang.org/x/net v0.0.0-20220906165146-f3363e06e74c
+# golang.org/x/net v0.1.0
 ## explicit; go 1.17
-golang.org/x/net/context
 golang.org/x/net/html
 golang.org/x/net/html/atom
 golang.org/x/net/idna
 golang.org/x/net/publicsuffix
-# golang.org/x/sys v0.0.0-20220728004956-3c1f35247d10
+# golang.org/x/sys v0.1.0
 ## explicit; go 1.17
-golang.org/x/sys/internal/unsafeheader
 golang.org/x/sys/unix
-golang.org/x/sys/windows
-# golang.org/x/text v0.3.7
+# golang.org/x/text v0.4.0
 ## explicit; go 1.17
 golang.org/x/text/internal/language
 golang.org/x/text/internal/language/compact
@@ -205,55 +155,13 @@ golang.org/x/text/secure/bidirule
 golang.org/x/text/transform
 golang.org/x/text/unicode/bidi
 golang.org/x/text/unicode/norm
-# golang.org/x/time v0.0.0-20200630173020-3af7569d3a1e
+# gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15
 ## explicit
-golang.org/x/time/rate
-# google.golang.org/appengine v1.6.5
-## explicit; go 1.11
-google.golang.org/appengine
-google.golang.org/appengine/datastore
-google.golang.org/appengine/datastore/internal/cloudkey
-google.golang.org/appengine/datastore/internal/cloudpb
-google.golang.org/appengine/internal
-google.golang.org/appengine/internal/app_identity
-google.golang.org/appengine/internal/base
-google.golang.org/appengine/internal/datastore
-google.golang.org/appengine/internal/log
-google.golang.org/appengine/internal/modules
-google.golang.org/appengine/internal/remote_api
-# google.golang.org/protobuf v1.25.0
-## explicit; go 1.9
-google.golang.org/protobuf/encoding/protojson
-google.golang.org/protobuf/encoding/prototext
-google.golang.org/protobuf/encoding/protowire
-google.golang.org/protobuf/internal/descfmt
-google.golang.org/protobuf/internal/descopts
-google.golang.org/protobuf/internal/detrand
-google.golang.org/protobuf/internal/encoding/defval
-google.golang.org/protobuf/internal/encoding/json
-google.golang.org/protobuf/internal/encoding/messageset
-google.golang.org/protobuf/internal/encoding/tag
-google.golang.org/protobuf/internal/encoding/text
-google.golang.org/protobuf/internal/errors
-google.golang.org/protobuf/internal/fieldsort
-google.golang.org/protobuf/internal/filedesc
-google.golang.org/protobuf/internal/filetype
-google.golang.org/protobuf/internal/flags
-google.golang.org/protobuf/internal/genid
-google.golang.org/protobuf/internal/impl
-google.golang.org/protobuf/internal/mapsort
-google.golang.org/protobuf/internal/pragma
-google.golang.org/protobuf/internal/set
-google.golang.org/protobuf/internal/strs
-google.golang.org/protobuf/internal/version
-google.golang.org/protobuf/proto
-google.golang.org/protobuf/reflect/protoreflect
-google.golang.org/protobuf/reflect/protoregistry
-google.golang.org/protobuf/runtime/protoiface
-google.golang.org/protobuf/runtime/protoimpl
 # gopkg.in/ini.v1 v1.57.0
 ## explicit
 gopkg.in/ini.v1
+# gopkg.in/yaml.v2 v2.2.4
+## explicit
 # gopkg.in/yaml.v3 v3.0.0-20200615113413-eeeca48fe776
 ## explicit
 gopkg.in/yaml.v3
